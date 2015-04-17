@@ -377,7 +377,7 @@ protected:
 	virtual bool FunctionTraceReturnImpl(int64_t& retval) { retval = m_r[M88K_RETURN_VALUE_REG]; return true; }
 
 	virtual int GetDyntransICshift() const;
-	virtual void (*GetDyntransToBeTranslated())(CPUDyntransComponent*, DyntransIC*) const;
+	virtual void (*GetDyntransToBeTranslated())(CPUDyntransComponent*, DyntransIC*);
 
 	virtual void ShowRegisters(GXemul* gxemul, const vector<string>& arguments) const;
 

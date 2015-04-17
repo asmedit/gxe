@@ -93,6 +93,14 @@ listed here:  doc/experiments.html#hello
 Please read the rest of the documentation in the doc/ sub-directory for
 more detailed information on how to use the emulator.
 
+Sample OS
+---------
+
+```
+wget http://www.helenos.org/releases/HelenOS-0.4.3-mips32-GXemul.boot
+./gxemul -E oldtestmips HelenOS-0.4.3-mips32-GXemul.boot
+```
+
 Feedback
 --------
 
